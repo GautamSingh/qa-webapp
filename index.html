@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <title>Ques & Answers</title>
+</head>
+<body>
+    <div class="container">
+    <form action="/qa" method="post">
+        <h5>Ques:1) - How many years of experience you have ?</h5>
+        <input type="radio" name="experience" value="fresher">0-1
+        <br>
+        <input type="radio" name="experience" value="abovetwo">2-5
+        <br>
+        <input type="radio" name="experience" value="abovefive">5-10
+        <br>
+        <input type="radio" name="experience" value="aboveten">10-
+    <br>
+        <h5>Ques:2) - How old are you ?</h5>
+        <input type="radio" name="age" value="above25">25-30
+        <br>
+        <input type="radio" name="age" value="above30">30-35
+        <br>
+        <input type="radio" name="age" value="above35">35-40
+        <br>
+        <input type="radio" name="age" value="above40">40-45
+    <br>
+        <h5>Ques:3) - What is your diet ?</h5>
+        <input type="radio" name="diet" value="V">Veg
+        <br>
+        <input type="radio" name="diet" value="NV">Non-Veg
+        <br>
+        <input type="radio" name="diet" value="both">Both
+        <br>
+        <input type="radio" name="diet" value="ve">Vegan
+    <br>
+        <h5>Ques:4) - Rate yourself according to your field of work ?</h5>
+        <input type="radio" name="rating" value="pr">Poor
+        <br>
+        <input type="radio" name="rating" value="gd">Good
+        <br>
+        <input type="radio" name="rating" value="best">Best
+        <br>
+        <input type="radio" name="rating" value="xtrm">Xtreme Level
+    <br>
+        <h5>Ques:5) - What is your CTC(in Lacs) ?</h5>
+        <input type="radio" name="package" value="starter">0-3
+        <br>
+        <input type="radio" name="package" value="exp">3-10
+        <br>
+        <input type="radio" name="package" value="professional">10-20
+        <br>
+        <input type="radio" name="package" value="manager">Above 20
+    <br>
+    <button type="submit" value="Submit the form">Submit Form</button>    
+</form>
+</div>
+    <!---jQuery first, then Popper.js, then Bootstrap JS ---->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
